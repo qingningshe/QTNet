@@ -14,7 +14,7 @@
                 .put("password", password)
                 .put("channel", Constants.API.CHANNEL_ANDROID);
 
-     new OkRequest.Builder().headers(headers).url(url).params(params).get(callBack);
+    new OkRequest.Builder().headers(headers).url(url).params(params).get(callBack);
 
 ### post请求
     RequestParams params = RequestParams.newInstance()
