@@ -85,3 +85,5 @@
                super.onFinish();
            }
        });
+### Gradle使用
+     compile 'com.qingningshe.net:net:1.0.0'
